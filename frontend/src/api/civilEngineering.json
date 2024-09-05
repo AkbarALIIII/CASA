@@ -1,0 +1,28 @@
+[
+  {
+    "contents": [
+      {
+        "title": "Construction Drawings Solutions",
+        "description": "We provide precise and detailed construction drawings that serve as the blueprint for successful project execution. Our drawings are meticulously crafted to ensure accuracy and clarity, enabling seamless communication among all stakeholders."
+      },
+      {
+        "title": "Construction Execution Services",
+        "description": "Our construction execution services ensure that your project is carried out with precision and efficiency. From project planning to on-site management, we handle every aspect to deliver top-quality results on time and within budget."
+      }
+    ],
+    "img_url": "/images/19.jpg"
+  },
+  {
+    "contents": [
+      {
+        "title": "On-Site Problem Solving Services",
+        "description": "We specialize in solving on-site issues quickly and effectively. Our team of experts is always ready to tackle any challenge that arises during the construction process, ensuring that your project stays on track."
+      },
+      {
+        "title": "Civil Work Services",
+        "description": "We offer comprehensive civil work services, including site preparation, foundation work, and structural construction. Our commitment to quality and safety ensures that every project is completed to the highest standards."
+      }
+    ],
+    "img_url": "/images/20.jpg"
+  }
+]

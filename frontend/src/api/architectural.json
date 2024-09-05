@@ -1,0 +1,100 @@
+[
+  {
+    "img_url": "images/18.jpg",
+    "contents": [
+      {
+        "title": "Architectural Planning",
+        "description": "Our architectural planning services focus on creating innovative and functional designs that meet your specific needs. We work closely with clients to ensure that every aspect of the project is tailored to their vision."
+      },
+      {
+        "title": "3D Modelling",
+        "description": "We bring your projects to life with our advanced 3D modeling services. These models provide a realistic view of the final product, allowing you to visualize the space and make informed decisions before construction begins."
+      },
+      {
+        "title": "Lighting Design",
+        "description": "Our lighting design services create ambiance and enhance the aesthetic appeal of your space. We carefully plan and implement lighting solutions that complement the architectural design and interior decor."
+      }
+    ]
+  },
+  {
+    "img_url": "images/12.jpg",
+    "contents": [
+      {
+        "title": "Project Management",
+        "description": "Our project management services ensure that your architectural projects are completed on time and within budget. We coordinate all aspects of the project, from initial planning to final execution, to deliver results that exceed expectations."
+      },
+      {
+        "title": "Building Design",
+        "description": "Our building design services create structures that are not only functional but also aesthetically pleasing. We take into account your specific needs and preferences to design buildings that are tailored to your vision."
+      },
+      {
+        "title": "Custom Furniture Design",
+        "description": "We offer bespoke furniture design services to create pieces that perfectly fit your space and style. From concept to creation, we work with you to craft furniture that is both functional and aesthetically pleasing."
+      }
+    ]
+  },
+  {
+    "img_url":"images/14.jpg",
+    "contents": [
+      {
+        "title": "Furniture Layout and Space Planning",
+        "description": "We provide expert furniture layout and space planning services to maximize the functionality and flow of your space. Our designs are tailored to create an environment that is both comfortable and visually appealing."
+      },
+      {
+        "title": "Furniture, Fabric, and Accessories Selections",
+        "description": "Our team assists in selecting the perfect furniture, fabrics, and accessories to complement your interior design. We ensure that every piece fits seamlessly into your overall design concept."
+      },
+      {
+        "title": "Tile and Surface Selection and Layout",
+        "description": "We offer expert advice on selecting and laying out tiles and surfaces that enhance the beauty and functionality of your space. Our designs ensure that every element works harmoniously together."
+      }
+    ]
+  },
+  {
+    "img_url": "images/15.jpg",
+    "contents": [
+      {
+        "title": "Finish Selections and Specifications",
+        "description": "Our finish selections and specifications services guide you through choosing the right finishes for your project. We help you select materials that not only look great but also meet your project's performance requirements."
+      },
+      {
+        "title": "Hardware, Plumbing, and Appliance Specification",
+        "description": "We provide detailed specifications for hardware, plumbing, and appliances, ensuring that every component fits perfectly within your design. Our selections are based on both functionality and aesthetics."
+      },
+      {
+        "title": "Exterior Finish Selections",
+        "description": "Our exterior finish selection services help you choose the right materials for the outside of your building. We ensure that your building's exterior is not only durable but also visually appealing."
+      }
+    ]
+  },
+  {
+    "img_url":  "images/17.jpg",
+    "contents": [
+      {
+        "title": "Interior Detailing",
+        "description": "Our interior detailing services ensure that every element of your interior design is meticulously crafted. We focus on the finer details that make your space truly unique and reflective of your personal style."
+      },
+      {
+        "title": "Procurement of all Interior Selections",
+        "description": "We handle the procurement of all interior selections, ensuring that every piece is sourced and delivered on time. Our procurement services take the hassle out of sourcing materials, allowing you to focus on the bigger picture."
+      },
+      {
+        "title": "Budgeting",
+        "description": "Our budgeting services help you plan and manage the financial aspects of your project. We provide detailed cost estimates and work with you to ensure that your project stays within budget."
+      }
+    ]
+  },
+  {
+    "img_url": "images/22.jpg",
+    "contents": [
+      {
+        "title": "Project Coordination and Integration with Architect and Contractor",
+        "description": "We offer project coordination and integration services to ensure seamless collaboration between architects, contractors, and other stakeholders. Our goal is to deliver a project that is well-coordinated and executed to perfection."
+      },
+      {
+        "title": "Color and Paint Selection",
+        "description": "Our color and paint selection services help you choose the perfect palette for your space. We work with you to create a cohesive and harmonious color scheme that enhances the overall design."
+      }
+    ]
+  }
+]

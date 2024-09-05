@@ -1,0 +1,291 @@
+/* Container for the entire Contact Us section */
+.contact-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  min-height: 90vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Container for the logo */
+.logo-container {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+/* Logo styling */
+.logo {
+  max-width: 100%;
+  /* Ensure the logo fits within its container */
+  height: auto;
+  max-height: 150px;
+  /* Set a maximum height for the logo */
+}
+
+/* Container for the form */
+.form-container {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 0rem;
+}
+
+.call-main {
+  margin: 5rem 0 5rem 0;
+  display: flex;
+  height: 60vh;
+  width: 100%;
+}
+
+.call {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+.call h1 {
+  margin: 1rem 0 0 2.5rem;
+  font-size: 5rem;
+}
+
+.call h2 {
+  margin: 0 0 0 2.7rem;
+}
+
+.call-btn {
+  margin: 1.5rem 0 0 2.5rem;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  width: 10rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+.call-btn:hover {
+  background-color: antiquewhite;
+}
+
+.map-area {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form CSS */
+.container {
+  background-color: #ffffff;
+  /* White background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  /* Light shadow for separation */
+  width: 25rem;
+  color: #333333;
+  /* Dark gray text for contrast */
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #444444;
+  /* Slightly lighter gray for the title */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #444444;
+  /* Lighter gray for labels */
+}
+
+.form-group input {
+  border: 1px solid #dcdcdc;
+  /* Light gray border */
+  border-radius: 4px;
+  height: 25px;
+  padding: 8px;
+  background-color: #fafafa;
+  /* Very light gray for input fields */
+}
+
+.form-group textarea {
+  border: 1px solid #dcdcdc;
+  /* Light gray border */
+  border-radius: 4px;
+  min-height: 150px;
+  resize: vertical;
+  background-color: #fafafa;
+  /* Very light gray for text areas */
+}
+
+.container button {
+  padding: 10px;
+  width: 140px;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #007bff;
+  /* Blue border for the button */
+  border-radius: 5px;
+  align-self: center;
+  transition: 0.5s;
+  background-color: #007bff;
+  /* Blue background for the button */
+  color: #ffffff;
+  /* White text on the button */
+}
+
+.container button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow for hover effect */
+}
+.btn-show{
+  display: none;
+}
+.form-group input:hover,
+.form-group textarea:hover {
+  border-color: #007bff;
+  background-color: #f5faff;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .call h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .call h2{
+    margin-bottom: 2rem;
+  }
+  .map-area iframe {
+    height: 100%;
+    width: 100%;
+  }
+  .map-area{
+    margin-right: 1rem;
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .logo-container {
+    display: none;
+  }
+
+  .call h1 {
+    font-size: 2rem;
+    margin: 0 0 3rem 0;
+  }
+
+  .call h2 {
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-bottom: 3rem;
+  }
+
+  .map-area iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  .map-area {
+    height: 20rem;
+    margin-right: 2rem;
+  }
+
+  .call-main {
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .call-btn {
+    margin: 0 0 0 0;
+    padding: .7rem;
+    width: 7rem;
+  }
+
+  .call a {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .contact-container {
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logo-container {
+    display: none;
+  }
+
+  .call h1 {
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .call h2 {
+    font-size: 1rem;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .map-area iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  .map-area {
+    height: 10rem;
+    margin-right: 2rem;
+  }
+
+  .call-main {
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .call-btn {
+    margin: 0 0 0 0;
+    padding: .7rem;
+    width: 7rem;
+  }
+
+  .call a {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .contact-container {
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .container {
+    width: 20rem;
+  }
+}

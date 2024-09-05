@@ -1,0 +1,137 @@
+/* General Styles */
+.Services-main h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Services-main {
+    font-family: Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    margin: 0px;
+    padding: 0px 2rem;
+}
+
+.service-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    overflow: hidden;
+    gap: 2rem;
+}
+
+/* Odd and Even Flex Directions */
+.service-box.odd {
+    flex-direction: row;
+}
+
+.service-box.even {
+    flex-direction: row-reverse;
+}
+
+/* Text Group and Image Styling */
+.text-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+}
+
+.even .text-group, .odd .text-content-img {
+    margin-right: 2rem;
+}
+
+.odd .text-group {
+    margin-left: 2rem;
+}
+
+.text-content {
+    padding: 1.5rem;
+    background-color: rgb(231, 229, 226);
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 1rem;
+}
+
+.text-content-img {
+    flex: 1;
+    background-color: gray;
+    height: 30rem;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
+.text-content-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;   
+}
+
+.architecture .text-content {
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.architecture h3 {
+    margin: 1rem 0 0 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .text-content-img {
+        width: 50%;
+        height: 50rem;
+        margin: 0 0 0 0;
+        border-radius: 15px;
+    }
+    .service-box.odd{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .service-box.even{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .service-box .text-group {
+        margin: 0 0 0 0;
+    }
+    .Services-main h1 {
+        font-size: 2rem;
+    }
+    .even .text-group, .odd .text-content-img,.odd .text-group {
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .text-content-img {
+        width: 100%;
+        height: 50rem;
+        margin: 0 0 0 0;
+        border-radius: 15px;
+    }
+    .service-box.odd{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .service-box.even{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .service-box .text-group {
+        margin: 0 0 0 0;
+    }
+    .Services-main h1 {
+        font-size: 2rem;
+    }
+    .even .text-group, .odd .text-content-img,.odd .text-group {
+        margin: 0;
+    }
+}
+
+
+
+

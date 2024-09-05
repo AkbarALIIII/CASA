@@ -1,0 +1,22 @@
+.home-background {
+    font-family: Arial, sans-serif;
+    background-image: url('/images/Home/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.home-background::after {
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:90rem;
+    z-index: -1;
+    pointer-events: none;
+}
+.home-background .header,
+.home-background .footer{
+    font-family: "";
+}

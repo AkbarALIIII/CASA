@@ -1,0 +1,155 @@
+.footer{
+    height: 20rem;
+    background-color: rgb(34, 34, 34);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    color: white;
+    box-shadow: 0 -1px 15px 1px rgba(0, 0, 0, 0.412);
+}
+.footer p{
+    font-family: none;
+}
+.left{
+    /* background-color: rgb(255, 11, 11); */
+    width: 30rem;
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    flex: 0.5;
+}
+.footer h1{
+    margin: 0;
+}
+.footer h4{
+    margin: 0 0 0 0;
+}
+.timings p{
+    margin: 0 0 0 0;
+}
+.copy{
+    margin: 2rem 0 0 0;
+}
+.right{
+    /* background-color: red; */
+    margin-top: 2rem; 
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1;
+}
+.address h5{
+    font-size: 1.5rem;
+    margin: 0;
+}
+.mail-form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.mail-info p{
+    margin: 0;
+}
+.input{
+    /* background-color: red; */
+    border: transparent;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.49);
+    padding: .75rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    width: 25rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    width: 12rem;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    letter-spacing: 0.03rem;
+    background-color: rgb(57, 57, 241);
+    color: white;
+    font-weight: bold;
+    border: transparent;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(34, 34, 223);
+    cursor: pointer;
+}
+.social-media{   
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.social-media h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.social-media i{
+    font-size: 2rem;
+}
+.social-media a {
+    color: white;
+    transition: transform 0.5s;
+  }
+.social-media a:hover{
+    transform: translateY(-5px);
+    text-shadow: 0 5px 5px #000;
+  }
+.social-media-logo{
+    display: flex;
+    gap: 2rem;
+}
+  
+@media only screen and (max-width: 1200px){
+    .footer{
+        padding-bottom: 4rem;
+    }
+}
+@media only screen and (max-width: 950px){
+    .left{
+        margin-left: 4rem;
+    }
+  }
+  @media only screen and (max-width: 840px){
+    .left{
+        margin-left: 4rem;
+    }
+    .footer{
+        gap:1rem;
+    }
+  }
+  @media only screen and (max-width: 780px){
+    .left{
+        margin-left: 2rem;
+    }
+  }
+@media only screen and (max-width: 720px){
+    .footer{
+        flex-direction: column;
+        height: auto;
+        align-items:flex-start;
+        gap: 2rem;
+    }
+    .left{
+        width:auto;
+        margin: 2rem 0 0 2rem;
+    }
+    .right{
+        margin:2rem 0 0 2rem;
+        width: auto;
+        overflow: hidden;
+    }
+    .right .mail-info{
+        width: 90%;
+    }
+    .right .input{
+        width:auto;
+    } 
+  }
+
+
+

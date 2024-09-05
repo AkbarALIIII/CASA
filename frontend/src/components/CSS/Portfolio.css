@@ -1,0 +1,176 @@
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.portfolio h1{
+    font-size: 4rem;
+    margin: 0;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    width: 80rem;
+    gap: 2rem;
+    flex-wrap:wrap;
+    margin-top: 3rem;
+    overflow: hidden;
+    height: 52rem;
+}
+
+.expanded{
+    height: auto;
+}
+.img{
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    cursor:zoom-in;
+}
+.photo{
+    height: 100%;
+    /* width: 100%; */
+}
+.zoombox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    background-color: rgb(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+}
+.zoombox-content{
+    max-height:90%;
+    image-rendering:optimizeQuality;
+    max-width: 90%;
+    opacity: 1;
+}
+
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.3s;
+    user-select: none;
+    transition: transform 0.5s;
+}
+
+.close{
+    position: absolute;
+    top:20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.5s;
+}
+.prev{
+    left: 35px;
+}
+.next{
+    right: 35px;
+}
+.close:hover,.prev:hover,.next:hover,.main-next:hover,.main-prev:hover{
+    transform: translateY(-5px);
+    text-shadow: 0 5px 5px black;
+}
+.show-hide{
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: transparent;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background-color: rgb(179, 145, 103);
+    cursor: pointer;
+    align-self: flex-end;
+}
+.show-hide:hover{
+    background-color: rgb(180, 133, 76);
+}
+.portfolio p{width: 70%;}
+@media only screen and (max-width: 1300px) {
+    .img{
+        width: 22rem;
+        align-self: center;
+        height: 22rem;
+    }
+    
+    .portfolio{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .images{
+        width: 100%;
+        gap:0.5rem;
+        justify-content: center;
+        height:45rem;
+    }
+    .expanded{
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1101px) {
+    .img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .images{
+        height:37rem;
+    }
+    .expanded{
+        height: auto;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .images{
+        height:31rem;
+
+    }
+    .expanded{
+        height: auto;
+    }
+}
+@media only screen and (max-width: 791px) {
+.img{
+    width: 12rem;
+    height: 12rem;
+}
+.images{
+    height:25.001rem;
+}
+.portfolio{
+    margin-top: 0rem;
+}
+.portfolio p{width: 90%;}
+.portfolio h1{
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+  }
+.portfolio p{
+    font-size:1rem;
+}
+.expanded{
+    height: auto;
+}
+}
